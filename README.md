@@ -31,14 +31,72 @@ A Python-based lane detection and steering estimation system built using OpenCV 
 lane_following_normalized.py    # Main lane detection and steering algorithm
 ```
 
-## Requirements
+# Installation
 
-Install the required dependencies:
+> **Note:** The instructions below are for **Windows**.
+
+## Windows
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/your-repository.git
+   cd your-repository
+   ```
+
+2. (Optional) Create and activate a virtual environment:
+   ```bash
+   python -m venv venv
+   venv\Scripts\activate
+   ```
+
+3. Install the required Python packages:
+   ```bash
+   pip install opencv-python numpy matplotlib
+   ```
+
+4. Run the application:
+   ```bash
+   python lane_following_normalized.py
+   ```
+
+---
+
+## Ubuntu
+
+To run the project on Ubuntu, first install the required system packages:
+
+```bash
+sudo apt update
+sudo apt install python3 python3-pip python3-venv
+```
+
+Clone the repository:
+
+```bash
+git clone https://github.com/your-username/your-repository.git
+cd your-repository
+```
+
+Create and activate a virtual environment (recommended):
+
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
+
+Install the Python dependencies:
 
 ```bash
 pip install opencv-python numpy matplotlib
 ```
 
+Run the program:
+
+```bash
+python3 lane_following_normalized.py
+```
+
+> **Note:** If you encounter issues displaying OpenCV windows on Ubuntu, make sure your system has the necessary GUI libraries installed. On desktop Ubuntu installations, these are typically available by default.
 ## Usage
 
 Place your input video (currently expected as `bosch_test.mp4`) in the project directory and run:
