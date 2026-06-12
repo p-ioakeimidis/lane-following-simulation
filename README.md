@@ -1,3 +1,5 @@
+<img width="800" height="662" alt="ezgif com-video-to-gif-converter" src="https://github.com/user-attachments/assets/a35f4ab2-bc43-4d30-9345-63ffc16179a7" />
+
 # Lane Following with OpenCV
 
 A Python-based lane detection and steering estimation system built using OpenCV and NumPy. The project processes video frames, detects road lane markings using computer vision techniques, estimates the vehicle's steering direction, and outputs a normalized steering value suitable for autonomous driving or robotics applications.
