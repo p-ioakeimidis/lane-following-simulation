@@ -111,7 +111,7 @@ python3 lane_following_normalized.py
 Place your input video (currently expected as `bosch_test.mp4`) in the project directory and run:
 
 ```bash
-python lane_following_normalized.py
+python3 lane_following_normalized.py
 ```
 
 Press **`q`** or **`Esc`** to exit the application.
