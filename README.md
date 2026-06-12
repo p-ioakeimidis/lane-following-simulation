@@ -82,7 +82,7 @@ sudo apt install python3 python3-pip python3-venv
 Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/your-repository.git
+git clone https://github.com/p-ioakeimidis/lane-following-simulation
 cd your-repository
 ```
 
