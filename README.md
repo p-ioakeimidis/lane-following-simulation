@@ -2,6 +2,13 @@
 
 A Python-based lane detection and steering estimation system built using OpenCV and NumPy. The project processes video frames, detects road lane markings using computer vision techniques, estimates the vehicle's steering direction, and outputs a normalized steering value suitable for autonomous driving or robotics applications.
 
+## Input Video
+
+This implementation processes a prerecorded **MP4 video** as its input source rather than a live camera feed. The sample video used for testing (`bosch_test.mp4`) is included in this GitHub repository, allowing users to reproduce the results and experiment with the lane detection and steering estimation pipeline immediately after setup.
+
+If you would like to use your own video, simply replace the input file or update the path passed to `cv.VideoCapture()` in the source code.
+
+
 ## Features
 
 - 🚗 Lane line detection using Hough Transform
