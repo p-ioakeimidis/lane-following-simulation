@@ -48,8 +48,8 @@ lane_following_normalized.py    # Main lane detection and steering algorithm
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/your-repository.git
-   cd your-repository
+   https://github.com/p-ioakeimidis/lane-following-simulation.git
+   cd lane-following-simulation
    ```
 
 2. (Optional) Create and activate a virtual environment:
